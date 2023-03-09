@@ -1,0 +1,388 @@
+[08Mar2023 22:46:11.454] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, PPWRLD, --version, 1.19.2-forge-43.2.0, --gameDir, C:\Users\Jacob\AppData\Roaming\.minecraft, --assetsDir, C:\Users\Jacob\AppData\Roaming\.minecraft\assets, --assetIndex, 1.19, --uuid, 18b8c1a3683540a89c885bed481a88c2, --accessToken, ????????, --clientId, MDhlYzY4OTMtZDUyZi00YWIzLTlmY2UtMTM3OTgzMWZhNmQ2, --xuid, 2535456189099450, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[08Mar2023 22:46:11.460] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[08Mar2023 22:46:11.486] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[08Mar2023 22:46:11.499] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[08Mar2023 22:46:11.515] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[08Mar2023 22:46:11.527] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[08Mar2023 22:46:13.275] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: [C:\Users\Jacob\AppData\Roaming\.minecraft\mods\OptiFine_1.19.2_HD_U_I1.jar]
+[08Mar2023 22:46:13.309] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,OptiFine,fml]
+[08Mar2023 22:46:13.310] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[08Mar2023 22:46:13.310] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[08Mar2023 22:46:13.310] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[08Mar2023 22:46:13.311] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service OptiFine
+[08Mar2023 22:46:13.311] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[08Mar2023 22:46:13.312] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/C:/Users/Jacob/AppData/Roaming/.minecraft/mods/OptiFine_1.19.2_HD_U_I1.jar%23286!/
+[08Mar2023 22:46:13.320] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\Jacob\AppData\Roaming\.minecraft\mods\OptiFine_1.19.2_HD_U_I1.jar
+[08Mar2023 22:46:13.322] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[08Mar2023 22:46:13.333] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service OptiFine
+[08Mar2023 22:46:13.333] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[08Mar2023 22:46:13.335] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[08Mar2023 22:46:13.335] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[08Mar2023 22:46:13.336] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.8+10.0.8+main.0ef7e830
+[08Mar2023 22:46:13.336] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[08Mar2023 22:46:13.336] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.3+6.0.3+master.039e4ea9
+[08Mar2023 22:46:13.337] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[08Mar2023 22:46:13.338] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[08Mar2023 22:46:13.339] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
+[08Mar2023 22:46:13.339] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[08Mar2023 22:46:13.341] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[08Mar2023 22:46:13.342] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[08Mar2023 22:46:13.347] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[08Mar2023 22:46:13.348] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[08Mar2023 22:46:13.361] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@1c1bbc4e
+[08Mar2023 22:46:13.378] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Jacob/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2391!/ Service=ModLauncher Env=CLIENT
+[08Mar2023 22:46:13.382] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[08Mar2023 22:46:13.382] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[08Mar2023 22:46:13.383] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[08Mar2023 22:46:13.383] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[08Mar2023 22:46:13.384] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[08Mar2023 22:46:13.384] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[08Mar2023 22:46:13.386] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[08Mar2023 22:46:13.387] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service OptiFine
+[08Mar2023 22:46:13.387] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[08Mar2023 22:46:13.387] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service OptiFine
+[08Mar2023 22:46:13.387] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[08Mar2023 22:46:13.387] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[08Mar2023 22:46:13.389] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\Jacob\AppData\Roaming\.minecraft
+[08Mar2023 22:46:13.389] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Jacob\AppData\Roaming\.minecraft
+[08Mar2023 22:46:13.389] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\Jacob\AppData\Roaming\.minecraft\mods
+[08Mar2023 22:46:13.389] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Jacob\AppData\Roaming\.minecraft\mods
+[08Mar2023 22:46:13.390] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\Jacob\AppData\Roaming\.minecraft\config
+[08Mar2023 22:46:13.390] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Jacob\AppData\Roaming\.minecraft\config
+[08Mar2023 22:46:13.390] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Jacob\AppData\Roaming\.minecraft\config\fml.toml
+[08Mar2023 22:46:13.390] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[08Mar2023 22:46:13.439] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\Jacob\AppData\Roaming\.minecraft\defaultconfigs
+[08Mar2023 22:46:13.439] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[08Mar2023 22:46:13.442] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[08Mar2023 22:46:13.443] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclient as launch service
+[08Mar2023 22:46:13.460] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=43.2.0, mcVersion=1.19.2, mcpVersion=20220805.130853, forgeGroup=net.minecraftforge]
+[08Mar2023 22:46:13.462] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[08Mar2023 22:46:13.463] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[08Mar2023 22:46:13.463] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[08Mar2023 22:46:13.463] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[08Mar2023 22:46:13.464] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[08Mar2023 22:46:13.465] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[08Mar2023 22:46:13.465] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service OptiFine
+[08Mar2023 22:46:13.465] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service OptiFine
+[08Mar2023 22:46:13.465] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[08Mar2023 22:46:13.465] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[08Mar2023 22:46:13.476] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[08Mar2023 22:46:13.479] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[08Mar2023 22:46:13.480] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[08Mar2023 22:46:13.493] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\[Forge 1.19.2]Created Music Discs[2.3.0].jar
+[08Mar2023 22:46:13.533] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file [Forge 1.19.2]Created Music Discs[2.3.0].jar with {created_music_discs} mods - versions {2.3.0}
+[08Mar2023 22:46:13.537] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\[Forge 1.19.2]MomentariyModder'Applications[4.3.0].jar
+[08Mar2023 22:46:13.538] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file [Forge 1.19.2]MomentariyModder'Applications[4.3.0].jar with {momentariycore2} mods - versions {4.3.0}
+[08Mar2023 22:46:13.542] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\[Universal]CTOV-v3-1-3.jar
+[08Mar2023 22:46:13.544] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file [Universal]CTOV-v3-1-3.jar with {ctov} mods - versions {3.1.3}
+[08Mar2023 22:46:13.548] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\alexsdelight-1.4.1.jar
+[08Mar2023 22:46:13.553] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file alexsdelight-1.4.1.jar with {alexsdelight} mods - versions {1.4.1}
+[08Mar2023 22:46:13.558] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\alexsmobs-1.21.1.jar
+[08Mar2023 22:46:13.560] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file alexsmobs-1.21.1.jar with {alexsmobs} mods - versions {1.21.1}
+[08Mar2023 22:46:13.564] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\alloyed-1.19.2-v1.5.jar
+[08Mar2023 22:46:13.566] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file alloyed-1.19.2-v1.5.jar with {alloyed} mods - versions {1.19.2}
+[08Mar2023 22:46:13.569] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\appliedcooking-2.0.3.jar
+[08Mar2023 22:46:13.570] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file appliedcooking-2.0.3.jar with {appliedcooking} mods - versions {2.0.3}
+[08Mar2023 22:46:13.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\appliedenergistics2-forge-12.9.2.jar
+[08Mar2023 22:46:13.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file appliedenergistics2-forge-12.9.2.jar with {ae2} mods - versions {12.9.2}
+[08Mar2023 22:46:13.581] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\architectury-6.5.69-forge.jar
+[08Mar2023 22:46:13.582] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-6.5.69-forge.jar with {architectury} mods - versions {6.5.69}
+[08Mar2023 22:46:13.589] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\ars_nouveau-1.19.2-3.12.3.jar
+[08Mar2023 22:46:13.590] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ars_nouveau-1.19.2-3.12.3.jar with {ars_nouveau} mods - versions {3.12.3}
+[08Mar2023 22:46:13.593] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\AutoRegLib-1.8.2-55.jar
+[08Mar2023 22:46:13.594] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file AutoRegLib-1.8.2-55.jar with {autoreglib} mods - versions {1.8.2-55}
+[08Mar2023 22:46:13.598] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\badpackets-forge-0.2.1.jar
+[08Mar2023 22:46:13.599] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file badpackets-forge-0.2.1.jar with {badpackets} mods - versions {0.2.1}
+[08Mar2023 22:46:13.602] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\balm-forge-1.19.2-4.5.6.jar
+[08Mar2023 22:46:13.603] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file balm-forge-1.19.2-4.5.6.jar with {balm} mods - versions {4.5.6}
+[08Mar2023 22:46:13.608] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\BiomesOPlenty-1.19.2-17.1.1.162.jar
+[08Mar2023 22:46:13.609] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BiomesOPlenty-1.19.2-17.1.1.162.jar with {biomesoplenty} mods - versions {17.1.1.162}
+[08Mar2023 22:46:13.612] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\blockui-1.19-0.0.64-ALPHA.jar
+[08Mar2023 22:46:13.613] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file blockui-1.19-0.0.64-ALPHA.jar with {blockui} mods - versions {1.19-0.0.64-ALPHA}
+[08Mar2023 22:46:13.621] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Bookshelf-Forge-1.19.2-16.2.17.jar
+[08Mar2023 22:46:13.622] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Bookshelf-Forge-1.19.2-16.2.17.jar with {bookshelf} mods - versions {16.2.17}
+[08Mar2023 22:46:13.629] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Botania-1.19.2-438-FORGE.jar
+[08Mar2023 22:46:13.630] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Botania-1.19.2-438-FORGE.jar with {botania} mods - versions {1.19.2-438-FORGE}
+[08Mar2023 22:46:13.636] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\buildersaddition-1.19.2-20220926a.jar
+[08Mar2023 22:46:13.637] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file buildersaddition-1.19.2-20220926a.jar with {buildersaddition} mods - versions {1.19.2-20220926a}
+[08Mar2023 22:46:13.641] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\cc-tweaked-1.19.2-1.101.2.jar
+[08Mar2023 22:46:13.641] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cc-tweaked-1.19.2-1.101.2.jar with {computercraft} mods - versions {1.101.2}
+[08Mar2023 22:46:13.646] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\cfm-7.0.0-pre35-1.19.2.jar
+[08Mar2023 22:46:13.647] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cfm-7.0.0-pre35-1.19.2.jar with {cfm} mods - versions {7.0.0-pre35}
+[08Mar2023 22:46:13.650] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\citadel-2.1.1-1.19.jar
+[08Mar2023 22:46:13.651] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file citadel-2.1.1-1.19.jar with {citadel} mods - versions {2.1.1}
+[08Mar2023 22:46:13.654] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\cloth-config-8.2.88-forge.jar
+[08Mar2023 22:46:13.655] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cloth-config-8.2.88-forge.jar with {cloth_config} mods - versions {8.2.88}
+[08Mar2023 22:46:13.658] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Clumps-forge-1.19.2-9.0.0+14.jar
+[08Mar2023 22:46:13.659] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Clumps-forge-1.19.2-9.0.0+14.jar with {clumps} mods - versions {9.0.0+14}
+[08Mar2023 22:46:13.670] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\cofh_core-1.19.2-10.2.1.40.jar
+[08Mar2023 22:46:13.671] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cofh_core-1.19.2-10.2.1.40.jar with {cofh_core} mods - versions {10.2.1}
+[08Mar2023 22:46:13.675] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\collective-1.19.2-6.49.jar
+[08Mar2023 22:46:13.675] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file collective-1.19.2-6.49.jar with {collective} mods - versions {6.49}
+[08Mar2023 22:46:13.679] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\concrete-1.19.2-3.0.4.jar
+[08Mar2023 22:46:13.679] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file concrete-1.19.2-3.0.4.jar with {concrete} mods - versions {3.0.4}
+[08Mar2023 22:46:13.683] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\cookingforblockheads-forge-1.19.2-13.3.1.jar
+[08Mar2023 22:46:13.683] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cookingforblockheads-forge-1.19.2-13.3.1.jar with {cookingforblockheads} mods - versions {13.3.1}
+[08Mar2023 22:46:13.686] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Corail-Spawners-1.19.2-030.jar
+[08Mar2023 22:46:13.687] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Corail-Spawners-1.19.2-030.jar with {corail_spawners} mods - versions {1.19.2-030}
+[08Mar2023 22:46:13.690] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\craftingtweaks-forge-1.19-15.1.6.jar
+[08Mar2023 22:46:13.690] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file craftingtweaks-forge-1.19-15.1.6.jar with {craftingtweaks} mods - versions {15.1.6}
+[08Mar2023 22:46:13.694] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\CraftTweaker-forge-1.19.2-10.1.37.jar
+[08Mar2023 22:46:13.695] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file CraftTweaker-forge-1.19.2-10.1.37.jar with {crafttweaker} mods - versions {10.1.37}
+[08Mar2023 22:46:13.698] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Create Deco Casing 1.1.0 1.19 Fix.jar
+[08Mar2023 22:46:13.699] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Create Deco Casing 1.1.0 1.19 Fix.jar with {create_deco_casing} mods - versions {1.1.0}
+[08Mar2023 22:46:13.706] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create-1.19.2-0.5.0.i.jar
+[08Mar2023 22:46:13.707] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create-1.19.2-0.5.0.i.jar with {create} mods - versions {0.5.0.i}
+[08Mar2023 22:46:13.711] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create-chromaticreturn1.19.2_v1.0.2.jar
+[08Mar2023 22:46:13.711] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create-chromaticreturn1.19.2_v1.0.2.jar with {createchromaticreturn} mods - versions {1.0.0}
+[08Mar2023 22:46:13.715] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create-confectionery1.19.2_v1.0.8.jar
+[08Mar2023 22:46:13.716] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create-confectionery1.19.2_v1.0.8.jar with {create_confectionery} mods - versions {1.0.8}
+[08Mar2023 22:46:13.719] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create-electric-stonks-1.19.2-1.1.4.jar
+[08Mar2023 22:46:13.720] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create-electric-stonks-1.19.2-1.1.4.jar with {create_electric_stonks} mods - versions {1.1.4}
+[08Mar2023 22:46:13.723] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create-stuff-additions1.19.2_v2.0.2b.jar
+[08Mar2023 22:46:13.723] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create-stuff-additions1.19.2_v2.0.2b.jar with {create_sa} mods - versions {2.0.2}
+[08Mar2023 22:46:13.727] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create_central_kitchen-1.19.2-for-create-0.5.0.i-1.2.2.jar
+[08Mar2023 22:46:13.728] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create_central_kitchen-1.19.2-for-create-0.5.0.i-1.2.2.jar with {create_central_kitchen} mods - versions {1.2.2}
+[08Mar2023 22:46:13.731] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create_connected_blocks-0.5.4.jar
+[08Mar2023 22:46:13.732] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create_connected_blocks-0.5.4.jar with {create_connected_blocks} mods - versions {0.5.4}
+[08Mar2023 22:46:13.735] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create_crystal_clear-0.1.2e-1.19.2.jar
+[08Mar2023 22:46:13.736] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create_crystal_clear-0.1.2e-1.19.2.jar with {create_crystal_clear} mods - versions {1.19.2 - 0.1.1e}
+[08Mar2023 22:46:13.739] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.14.jar
+[08Mar2023 22:46:13.740] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.14.jar with {create_enchantment_industry} mods - versions {1.1.14}
+[08Mar2023 22:46:13.743] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create_jetpack-2.1.3.jar
+[08Mar2023 22:46:13.744] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create_jetpack-2.1.3.jar with {create_jetpack} mods - versions {2.1.3}
+[08Mar2023 22:46:13.747] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create_mechanical_extruder-1.19.2-1.3.2.i.jar
+[08Mar2023 22:46:13.748] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create_mechanical_extruder-1.19.2-1.3.2.i.jar with {create_mechanical_extruder} mods - versions {1.19.2-1.3.2.i}
+[08Mar2023 22:46:13.751] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\create_misc_and_things_1.19.2_2.0.jar
+[08Mar2023 22:46:13.752] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create_misc_and_things_1.19.2_2.0.jar with {create_things_and_misc} mods - versions {1.0.0}
+[08Mar2023 22:46:13.755] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\createaddition-1.19.2-20230202b.jar
+[08Mar2023 22:46:13.756] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createaddition-1.19.2-20230202b.jar with {createaddition} mods - versions {1.19.2-20230202b}
+[08Mar2023 22:46:13.760] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\createbb-2.1.jar
+[08Mar2023 22:46:13.760] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createbb-2.1.jar with {createbb} mods - versions {2.1}
+[08Mar2023 22:46:13.764] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\createbigcannons-1.19.2-beta-0.5.b.jar
+[08Mar2023 22:46:13.765] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createbigcannons-1.19.2-beta-0.5.b.jar with {createbigcannons} mods - versions {1.19.2-beta-0.5.b}
+[08Mar2023 22:46:13.769] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\createcafe-1.1.4-1.19.2.jar
+[08Mar2023 22:46:13.769] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createcafe-1.1.4-1.19.2.jar with {createcafe} mods - versions {1.1.4-1.19.2}
+[08Mar2023 22:46:13.773] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\createchunkloading-1.3.0-forge.jar
+[08Mar2023 22:46:13.773] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createchunkloading-1.3.0-forge.jar with {createchunkloading} mods - versions {1.3.0}
+[08Mar2023 22:46:13.779] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\createdeco-1.2.12-1.19.2.jar
+[08Mar2023 22:46:13.779] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createdeco-1.2.12-1.19.2.jar with {createdeco} mods - versions {1.2.12-1.19.2}
+[08Mar2023 22:46:13.783] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\createindustry-0.4.0-1.19.2.jar
+[08Mar2023 22:46:13.783] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createindustry-0.4.0-1.19.2.jar with {createindustry} mods - versions {0.4.0}
+[08Mar2023 22:46:13.786] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\createoreexcavation-1.19-1.0.0.jar
+[08Mar2023 22:46:13.787] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createoreexcavation-1.19-1.0.0.jar with {createoreexcavation} mods - versions {1.0.0}
+[08Mar2023 22:46:13.790] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\createplus-1.19.2_v0.5.2a.jar
+[08Mar2023 22:46:13.791] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createplus-1.19.2_v0.5.2a.jar with {createplus} mods - versions {1.19.2_v0.5.2a}
+[08Mar2023 22:46:13.794] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\createsifter-1.19.2-1.4.0.i.jar
+[08Mar2023 22:46:13.794] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createsifter-1.19.2-1.4.0.i.jar with {createsifter} mods - versions {1.19.2-1.4.0.i}
+[08Mar2023 22:46:13.797] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\CreateTweaker-1.19.2-3.0.0.3.jar
+[08Mar2023 22:46:13.798] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file CreateTweaker-1.19.2-3.0.0.3.jar with {createtweaker} mods - versions {3.0.0.3}
+[08Mar2023 22:46:13.801] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\CreativeCore_FORGE_v2.9.3_mc1.19.2.jar
+[08Mar2023 22:46:13.802] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file CreativeCore_FORGE_v2.9.3_mc1.19.2.jar with {creativecore} mods - versions {2.9.3}
+[08Mar2023 22:46:13.805] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\CTM-1.19.2-1.1.6+8.jar
+[08Mar2023 22:46:13.805] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file CTM-1.19.2-1.1.6+8.jar with {ctm} mods - versions {1.19.2-1.1.6+8}
+[08Mar2023 22:46:13.808] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\curios-forge-1.19.2-5.1.3.0.jar
+[08Mar2023 22:46:13.809] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-forge-1.19.2-5.1.3.0.jar with {curios} mods - versions {1.19.2-5.1.3.0}
+[08Mar2023 22:46:13.812] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\DarkUtilities-Forge-1.19.2-13.1.7.jar
+[08Mar2023 22:46:13.812] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file DarkUtilities-Forge-1.19.2-13.1.7.jar with {darkutils} mods - versions {13.1.7}
+[08Mar2023 22:46:13.816] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\domum_ornamentum-1.19-1.0.76-ALPHA-universal.jar
+[08Mar2023 22:46:13.816] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file domum_ornamentum-1.19-1.0.76-ALPHA-universal.jar with {domum_ornamentum} mods - versions {1.19-1.0.76-ALPHA}
+[08Mar2023 22:46:13.820] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\DungeonsArise-1.19.2-2.1.54-release.jar
+[08Mar2023 22:46:13.820] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file DungeonsArise-1.19.2-2.1.54-release.jar with {dungeons_arise} mods - versions {2.1.54-1.19.2}
+[08Mar2023 22:46:13.823] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\easy_mob_farm_1.19.2-4.5.0.jar
+[08Mar2023 22:46:13.824] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file easy_mob_farm_1.19.2-4.5.0.jar with {easy_mob_farm} mods - versions {4.5.0}
+[08Mar2023 22:46:13.827] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\effortlessbuilding-1.19-2.40.jar
+[08Mar2023 22:46:13.828] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file effortlessbuilding-1.19-2.40.jar with {effortlessbuilding} mods - versions {1.19-2.40}
+[08Mar2023 22:46:13.831] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\extendedflywheels-1.2.5-1.19.2-0.5.f.jar
+[08Mar2023 22:46:13.831] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file extendedflywheels-1.2.5-1.19.2-0.5.f.jar with {extendedflywheels} mods - versions {1.2.5-1.19.2-0.5.f}
+[08Mar2023 22:46:13.834] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\extendedgears-1.19.2-0.5.0g-1.1.2.jar
+[08Mar2023 22:46:13.835] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file extendedgears-1.19.2-0.5.0g-1.1.2.jar with {extendedgears} mods - versions {1.19.2-0.5.0g-1.1.2}
+[08Mar2023 22:46:13.839] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\ExtremeReactors2-1.19.2-2.0.62.jar
+[08Mar2023 22:46:13.840] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ExtremeReactors2-1.19.2-2.0.62.jar with {bigreactors} mods - versions {1.19.2-2.0.62}
+[08Mar2023 22:46:13.844] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\FarmersDelight-1.19-1.2.0.jar
+[08Mar2023 22:46:13.844] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FarmersDelight-1.19-1.2.0.jar with {farmersdelight} mods - versions {1.19-1.2.0}
+[08Mar2023 22:46:13.847] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\FastLeafDecay-30.jar
+[08Mar2023 22:46:13.848] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FastLeafDecay-30.jar with {fastleafdecay} mods - versions {30}
+[08Mar2023 22:46:13.851] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\FluxNetworks-1.19.2-7.1.3.12.jar
+[08Mar2023 22:46:13.852] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FluxNetworks-1.19.2-7.1.3.12.jar with {fluxnetworks} mods - versions {7.1.3.12}
+[08Mar2023 22:46:13.856] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\flywheel-forge-1.19.2-0.6.8.a.jar
+[08Mar2023 22:46:13.857] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file flywheel-forge-1.19.2-0.6.8.a.jar with {flywheel} mods - versions {0.6.8.a}
+[08Mar2023 22:46:13.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\HammerLib-1.19.2-19.3.56.jar
+[08Mar2023 22:46:13.872] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file HammerLib-1.19.2-19.3.56.jar with {hammerlib} mods - versions {19.3.56}
+[08Mar2023 22:46:13.879] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\ilikewood-1.19.2-10.2.0.0.jar
+[08Mar2023 22:46:13.880] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ilikewood-1.19.2-10.2.0.0.jar with {ilikewood} mods - versions {1.19.2-10.2.0.0}
+[08Mar2023 22:46:13.887] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\ilikewoodxbiomesoplenty-1.19.2-10.2.0.jar
+[08Mar2023 22:46:13.888] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ilikewoodxbiomesoplenty-1.19.2-10.2.0.jar with {ilikewoodxbiomesoplenty} mods - versions {1.19.2-10.2.0}
+[08Mar2023 22:46:13.895] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\ilikewoodxtwilightforest-1.19.2-10.2.1.jar
+[08Mar2023 22:46:13.895] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ilikewoodxtwilightforest-1.19.2-10.2.1.jar with {ilikewoodxtwilightforest} mods - versions {1.19.2-10.2.1}
+[08Mar2023 22:46:13.899] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\immersive-portals-2.3.3-mc1.19.2-forge.jar
+[08Mar2023 22:46:13.900] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file immersive-portals-2.3.3-mc1.19.2-forge.jar with {immersive_portals,imm_ptl_core,q_misc_util} mods - versions {2.3.3,2.3.3,2.3.3}
+[08Mar2023 22:46:13.903] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Jade-1.19.1-forge-8.8.0.jar
+[08Mar2023 22:46:13.903] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Jade-1.19.1-forge-8.8.0.jar with {jade} mods - versions {8.8.0}
+[08Mar2023 22:46:13.906] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\jei-1.19.2-forge-11.6.0.1011.jar
+[08Mar2023 22:46:13.907] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.19.2-forge-11.6.0.1011.jar with {jei} mods - versions {11.6.0.1011}
+[08Mar2023 22:46:13.912] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\journeymap-1.19.2-5.9.3-forge.jar
+[08Mar2023 22:46:13.912] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file journeymap-1.19.2-5.9.3-forge.jar with {journeymap} mods - versions {5.9.3}
+[08Mar2023 22:46:13.915] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\kleeslabs-forge-1.19-12.1.0.jar
+[08Mar2023 22:46:13.916] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file kleeslabs-forge-1.19-12.1.0.jar with {kleeslabs} mods - versions {12.1.0}
+[08Mar2023 22:46:13.946] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\labels-1.19.2-1.8.jar
+[08Mar2023 22:46:13.946] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file labels-1.19.2-1.8.jar with {labels} mods - versions {1.19.2-1.8}
+[08Mar2023 22:46:13.950] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\leashed-1.19-1.3.0.jar
+[08Mar2023 22:46:13.950] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file leashed-1.19-1.3.0.jar with {leashed} mods - versions {1.3.0}
+[08Mar2023 22:46:13.954] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\macawsbridgesbyg-1.19.2-1.1.jar
+[08Mar2023 22:46:13.955] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file macawsbridgesbyg-1.19.2-1.1.jar with {macawsbridgesbyg} mods - versions {1.19.2-1.1}
+[08Mar2023 22:46:13.958] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\material_elements_1.19.2-6.3.0.jar
+[08Mar2023 22:46:13.959] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file material_elements_1.19.2-6.3.0.jar with {material_elements} mods - versions {6.3.0}
+[08Mar2023 22:46:13.962] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\material_elements_armor_tools_weapons_1.19.2-6.3.0.jar
+[08Mar2023 22:46:13.963] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file material_elements_armor_tools_weapons_1.19.2-6.3.0.jar with {material_elements_armor_tools_weapons} mods - versions {6.3.0}
+[08Mar2023 22:46:13.967] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\material_elements_decorative_1.19.2-6.3.0.jar
+[08Mar2023 22:46:13.967] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file material_elements_decorative_1.19.2-6.3.0.jar with {material_elements_decorative} mods - versions {6.3.0}
+[08Mar2023 22:46:13.971] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\material_elements_panels_plates_slabs_1.19.2-6.4.0.jar
+[08Mar2023 22:46:13.971] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file material_elements_panels_plates_slabs_1.19.2-6.4.0.jar with {material_elements_panels_plates_slabs} mods - versions {6.4.0}
+[08Mar2023 22:46:13.975] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\mcw-bridges-2.0.6-mc1.19.2forge.jar
+[08Mar2023 22:46:13.975] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-bridges-2.0.6-mc1.19.2forge.jar with {mcwbridges} mods - versions {2.0.6}
+[08Mar2023 22:46:13.979] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\mcw-doors-1.0.8forge-mc1.19.2.jar
+[08Mar2023 22:46:13.980] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-doors-1.0.8forge-mc1.19.2.jar with {mcwdoors} mods - versions {1.0.8}
+[08Mar2023 22:46:13.984] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\mcw-furniture-3.1.0-mc1.19.2forge.jar
+[08Mar2023 22:46:13.985] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-furniture-3.1.0-mc1.19.2forge.jar with {mcwfurnitures} mods - versions {3.1.0}
+[08Mar2023 22:46:13.988] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\mcw-trapdoors-1.0.8-mc1.19.2forge.jar
+[08Mar2023 22:46:13.989] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mcw-trapdoors-1.0.8-mc1.19.2forge.jar with {mcwtrpdoors} mods - versions {1.0.8}
+[08Mar2023 22:46:13.997] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Mekanism-1.19.2-10.3.8.477.jar
+[08Mar2023 22:46:13.997] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Mekanism-1.19.2-10.3.8.477.jar with {mekanism} mods - versions {10.3.8}
+[08Mar2023 22:46:14.024] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\minecolonies-1.19.2-1.0.1247-BETA.jar
+[08Mar2023 22:46:14.025] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file minecolonies-1.19.2-1.0.1247-BETA.jar with {minecolonies} mods - versions {1.19.2-1.0.1247-BETA}
+[08Mar2023 22:46:14.028] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\mob_grinding_utils-1.19.2-0.4.47.jar
+[08Mar2023 22:46:14.029] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mob_grinding_utils-1.19.2-0.4.47.jar with {mob_grinding_utils} mods - versions {1.19.2-0.4.47}
+[08Mar2023 22:46:14.032] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\MobCatcher-Forge-1.19.2-1.2.12.jar
+[08Mar2023 22:46:14.032] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file MobCatcher-Forge-1.19.2-1.2.12.jar with {mob_catcher} mods - versions {1.2.12}
+[08Mar2023 22:46:14.078] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\ModernUI-1.19.2-3.6.3.117-universal.jar
+[08Mar2023 22:46:14.078] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ModernUI-1.19.2-3.6.3.117-universal.jar with {modernui} mods - versions {3.6.3.117}
+[08Mar2023 22:46:14.081] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\molten_geodes-1.19.2-0.3.1.jar
+[08Mar2023 22:46:14.082] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file molten_geodes-1.19.2-0.3.1.jar with {molten_geodes} mods - versions {0.3.1}
+[08Mar2023 22:46:14.085] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\molten_vents-1.19.2-0.1.3.jar
+[08Mar2023 22:46:14.085] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file molten_vents-1.19.2-0.1.3.jar with {molten_vents} mods - versions {0.1.3}
+[08Mar2023 22:46:14.089] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\moonlight-1.19.2-2.2.15-forge.jar
+[08Mar2023 22:46:14.089] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file moonlight-1.19.2-2.2.15-forge.jar with {moonlight} mods - versions {1.19.2-2.2.15}
+[08Mar2023 22:46:14.092] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\MouseTweaks-forge-mc1.19-2.23.jar
+[08Mar2023 22:46:14.092] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file MouseTweaks-forge-mc1.19-2.23.jar with {mousetweaks} mods - versions {2.23}
+[08Mar2023 22:46:14.096] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\multipiston-1.19.2-1.2.21-ALPHA.jar
+[08Mar2023 22:46:14.097] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file multipiston-1.19.2-1.2.21-ALPHA.jar with {multipiston} mods - versions {1.19.2-1.2.21-ALPHA}
+[08Mar2023 22:46:14.100] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\NaturesCompass-1.19.2-1.10.0-forge.jar
+[08Mar2023 22:46:14.100] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file NaturesCompass-1.19.2-1.10.0-forge.jar with {naturescompass} mods - versions {1.19.2-1.10.0-forge}
+[08Mar2023 22:46:14.107] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar
+[08Mar2023 22:46:14.108] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar with {byg} mods - versions {2.0.0.13}
+[08Mar2023 22:46:14.111] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Patchouli-1.19.2-77.jar
+[08Mar2023 22:46:14.112] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Patchouli-1.19.2-77.jar with {patchouli} mods - versions {1.19.2-77}
+[08Mar2023 22:46:14.115] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\per_viam_invenire-1.19.2-0.1.56-RELEASE-universal.jar
+[08Mar2023 22:46:14.115] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file per_viam_invenire-1.19.2-0.1.56-RELEASE-universal.jar with {per_viam_invenire} mods - versions {1.19.2-0.1.56-RELEASE}
+[08Mar2023 22:46:14.118] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\PigPen-Forge-1.19.2-11.1.2.jar
+[08Mar2023 22:46:14.119] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file PigPen-Forge-1.19.2-11.1.2.jar with {pigpen} mods - versions {11.1.2}
+[08Mar2023 22:46:14.124] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\productivebees-1.19.2-0.10.5.3.jar
+[08Mar2023 22:46:14.124] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file productivebees-1.19.2-0.10.5.3.jar with {productivebees} mods - versions {1.19.2-0.10.5.3}
+[08Mar2023 22:46:14.128] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\ProjectE-1.19.2-PE1.0.1B.jar
+[08Mar2023 22:46:14.128] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ProjectE-1.19.2-PE1.0.1B.jar with {projecte} mods - versions {1.0.1B}
+[08Mar2023 22:46:14.133] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\PuzzlesLib-v4.3.12-1.19.2-Forge.jar
+[08Mar2023 22:46:14.134] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file PuzzlesLib-v4.3.12-1.19.2-Forge.jar with {puzzleslib} mods - versions {4.3.12}
+[08Mar2023 22:46:14.140] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Quark-3.4-394.jar
+[08Mar2023 22:46:14.141] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Quark-3.4-394.jar with {quark} mods - versions {3.4-394}
+[08Mar2023 22:46:14.144] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\refinedcooking-3.0.3.jar
+[08Mar2023 22:46:14.144] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file refinedcooking-3.0.3.jar with {refinedcooking} mods - versions {3.0.3}
+[08Mar2023 22:46:14.149] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\refinedstorage-1.11.5.jar
+[08Mar2023 22:46:14.149] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file refinedstorage-1.11.5.jar with {refinedstorage} mods - versions {1.11.5}
+[08Mar2023 22:46:14.152] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\refinedstorageaddons-0.9.0.jar
+[08Mar2023 22:46:14.152] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file refinedstorageaddons-0.9.0.jar with {refinedstorageaddons} mods - versions {0.9.0}
+[08Mar2023 22:46:14.156] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\REIPluginCompatibilities-forge-9.0.48.jar
+[08Mar2023 22:46:14.157] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file REIPluginCompatibilities-forge-9.0.48.jar with {rei_plugin_compatibilities,jei} mods - versions {9.0.48,11.9999}
+[08Mar2023 22:46:14.160] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\RingsOfAscension-1.19-1.0.1.jar
+[08Mar2023 22:46:14.160] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file RingsOfAscension-1.19-1.0.1.jar with {ringsofascension} mods - versions {1.0.0}
+[08Mar2023 22:46:14.163] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\rsrequestify-2.3.0.jar
+[08Mar2023 22:46:14.164] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file rsrequestify-2.3.0.jar with {rsrequestify} mods - versions {2.3.0}
+[08Mar2023 22:46:14.169] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Runelic-Forge-1.19.2-14.1.4.jar
+[08Mar2023 22:46:14.169] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Runelic-Forge-1.19.2-14.1.4.jar with {runelic} mods - versions {14.1.4}
+[08Mar2023 22:46:14.173] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\sebastrnlib-2.0.1.jar
+[08Mar2023 22:46:14.173] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sebastrnlib-2.0.1.jar with {sebastrnlib} mods - versions {2.0.1}
+[08Mar2023 22:46:14.177] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\secretrooms-1.19.2-1.2.0.jar
+[08Mar2023 22:46:14.177] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file secretrooms-1.19.2-1.2.0.jar with {secretroomsmod} mods - versions {1.19.2-1.2.0}
+[08Mar2023 22:46:14.180] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\sliceanddice-2.0.3.jar
+[08Mar2023 22:46:14.181] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sliceanddice-2.0.3.jar with {sliceanddice} mods - versions {2.0.3}
+[08Mar2023 22:46:14.189] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\SolarFluxReborn-1.19.2-19.3.9.jar
+[08Mar2023 22:46:14.190] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file SolarFluxReborn-1.19.2-19.3.9.jar with {solarflux} mods - versions {19.3.9}
+[08Mar2023 22:46:14.193] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\sophisticatedbackpacks-1.19.2-3.18.40.779.jar
+[08Mar2023 22:46:14.194] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sophisticatedbackpacks-1.19.2-3.18.40.779.jar with {sophisticatedbackpacks} mods - versions {1.19.2-3.18.40.779}
+[08Mar2023 22:46:14.197] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\sophisticatedcore-1.19.2-0.5.38.203.jar
+[08Mar2023 22:46:14.198] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sophisticatedcore-1.19.2-0.5.38.203.jar with {sophisticatedcore} mods - versions {1.19.2-0.5.38.203}
+[08Mar2023 22:46:14.202] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Steam_Rails-1.19.2-1.1.1.jar
+[08Mar2023 22:46:14.202] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Steam_Rails-1.19.2-1.1.1.jar with {railways} mods - versions {1.19.2-1.1.1}
+[08Mar2023 22:46:14.206] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\StorageDrawers-1.19-11.1.2.jar
+[08Mar2023 22:46:14.206] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file StorageDrawers-1.19-11.1.2.jar with {storagedrawers} mods - versions {11.1.2}
+[08Mar2023 22:46:14.210] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\structurize-1.19.2-1.0.472-BETA.jar
+[08Mar2023 22:46:14.210] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file structurize-1.19.2-1.0.472-BETA.jar with {structurize} mods - versions {1.19.2-1.0.472-BETA}
+[08Mar2023 22:46:14.215] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\supplementaries-1.19.2-2.2.56.jar
+[08Mar2023 22:46:14.216] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file supplementaries-1.19.2-2.2.56.jar with {supplementaries} mods - versions {1.19.2-2.2.56}
+[08Mar2023 22:46:14.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\TerraBlender-forge-1.19.2-2.0.1.136.jar
+[08Mar2023 22:46:14.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TerraBlender-forge-1.19.2-2.0.1.136.jar with {terrablender} mods - versions {2.0.1.136}
+[08Mar2023 22:46:14.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\thermal_foundation-1.19.2-10.2.0.47.jar
+[08Mar2023 22:46:14.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file thermal_foundation-1.19.2-10.2.0.47.jar with {thermal_foundation} mods - versions {10.2.0.47}
+[08Mar2023 22:46:14.227] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\thutcore-1.19.2-8.9.5.jar
+[08Mar2023 22:46:14.227] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file thutcore-1.19.2-8.9.5.jar with {thutcore,thutcrafts} mods - versions {8.9.5,8.9.5}
+[08Mar2023 22:46:14.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\tombstone-8.2.5-1.19.2.jar
+[08Mar2023 22:46:14.231] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tombstone-8.2.5-1.19.2.jar with {tombstone} mods - versions {8.2.5}
+[08Mar2023 22:46:14.234] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\Totemic-forge-1.19.2-0.12.1.jar
+[08Mar2023 22:46:14.234] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Totemic-forge-1.19.2-0.12.1.jar with {totemic} mods - versions {1.19.2-0.12.1}
+[08Mar2023 22:46:14.238] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\TradingPost-v4.2.0-1.19.2-Forge.jar
+[08Mar2023 22:46:14.239] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TradingPost-v4.2.0-1.19.2-Forge.jar with {tradingpost} mods - versions {4.2.0}
+[08Mar2023 22:46:14.242] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\TravelersBackpack-1.19.2-8.2.16.jar
+[08Mar2023 22:46:14.243] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TravelersBackpack-1.19.2-8.2.16.jar with {travelersbackpack} mods - versions {8.2.16}
+[08Mar2023 22:46:14.245] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\treeharvester-1.19.2-7.3.jar
+[08Mar2023 22:46:14.246] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file treeharvester-1.19.2-7.3.jar with {treeharvester} mods - versions {7.3}
+[08Mar2023 22:46:14.252] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\twilightforest-1.19.2-4.2.1518-universal.jar
+[08Mar2023 22:46:14.253] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file twilightforest-1.19.2-4.2.1518-universal.jar with {twilightforest} mods - versions {4.2.1518}
+[08Mar2023 22:46:14.256] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\upgradedcore-1.19.2-4.1.0.1-release.jar
+[08Mar2023 22:46:14.256] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file upgradedcore-1.19.2-4.1.0.1-release.jar with {upgradedcore} mods - versions {1.19.2-4.1.0.1-release}
+[08Mar2023 22:46:14.260] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\upgradednetherite-1.19.2-5.1.0.6-release.jar
+[08Mar2023 22:46:14.260] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file upgradednetherite-1.19.2-5.1.0.6-release.jar with {upgradednetherite} mods - versions {1.19.2-5.1.0.6-release}
+[08Mar2023 22:46:14.263] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\upgradednetherite_items-1.19.2-4.1.0.1-release.jar
+[08Mar2023 22:46:14.264] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file upgradednetherite_items-1.19.2-4.1.0.1-release.jar with {upgradednetherite_items} mods - versions {1.19.2-4.1.0.1-release}
+[08Mar2023 22:46:14.267] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\waystones-forge-1.19.2-11.3.0.jar
+[08Mar2023 22:46:14.268] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file waystones-forge-1.19.2-11.3.0.jar with {waystones} mods - versions {11.3.0}
+[08Mar2023 22:46:14.271] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\mods\ZeroCore2-1.19.2-2.1.32.jar
+[08Mar2023 22:46:14.271] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ZeroCore2-1.19.2-2.1.32.jar with {zerocore} mods - versions {1.19.2-2.1.32}
+[08Mar2023 22:46:14.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-1.19.2-20220805.130853-srg.jar with {minecraft} mods - versions {1.19.2}
+[08Mar2023 22:46:14.378] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\libraries\net\minecraftforge\fmlcore\1.19.2-43.2.0\fmlcore-1.19.2-43.2.0.jar
+[08Mar2023 22:46:14.378] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Jacob\AppData\Roaming\.minecraft\libraries\net\minecraftforge\fmlcore\1.19.2-43.2.0\fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
+[08Mar2023 22:46:14.383] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.2.0\javafmllanguage-1.19.2-43.2.0.jar
+[08Mar2023 22:46:14.383] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Jacob\AppData\Roaming\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.2.0\javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[08Mar2023 22:46:14.387] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.2.0\lowcodelanguage-1.19.2-43.2.0.jar
+[08Mar2023 22:46:14.387] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Jacob\AppData\Roaming\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.2.0\lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[08Mar2023 22:46:14.392] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\libraries\net\minecraftforge\mclanguage\1.19.2-43.2.0\mclanguage-1.19.2-43.2.0.jar
+[08Mar2023 22:46:14.392] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Jacob\AppData\Roaming\.minecraft\libraries\net\minecraftforge\mclanguage\1.19.2-43.2.0\mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[08Mar2023 22:46:14.425] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Jacob\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-universal.jar
+[08Mar2023 22:46:14.425] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.2.0-universal.jar with {forge} mods - versions {43.2.0}
+[08Mar2023 22:46:14.433] [main/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Failed to build unique mod list after mod discovery.
+net.minecraftforge.fml.loading.EarlyLoadingException: Duplicate mods found
+	at net.minecraftforge.fml.loading.UniqueModListBuilder.buildUniqueList(UniqueModListBuilder.java:78) ~[fmlloader-1.19.2-43.2.0.jar%2395!/:1.0]
+	at net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:105) ~[fmlloader-1.19.2-43.2.0.jar%2395!/:?]
+	at net.minecraftforge.fml.loading.FMLLoader.beginModScan(FMLLoader.java:166) ~[fmlloader-1.19.2-43.2.0.jar%2395!/:1.0]
+	at net.minecraftforge.fml.loading.FMLServiceProvider.beginScanning(FMLServiceProvider.java:86) ~[fmlloader-1.19.2-43.2.0.jar%2395!/:1.0]
+	at cpw.mods.modlauncher.TransformationServiceDecorator.runScan(TransformationServiceDecorator.java:112) ~[modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.TransformationServicesHandler.lambda$runScanningTransformationServices$8(TransformationServicesHandler.java:100) ~[modlauncher-10.0.8.jar%2382!/:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) [?:?]
+	at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) [?:?]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) [?:?]
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) [?:?]
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) [?:?]
+	at java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) [?:?]
+	at cpw.mods.modlauncher.TransformationServicesHandler.runScanningTransformationServices(TransformationServicesHandler.java:102) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:55) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:87) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2382!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[08Mar2023 22:46:14.442] [main/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Mod Discovery failed. Skipping dependency discovery.
+[08Mar2023 22:46:14.444] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[08Mar2023 22:46:14.458] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[08Mar2023 22:46:14.462] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft]
